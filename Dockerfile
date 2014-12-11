@@ -27,6 +27,6 @@ RUN chef-client -v
 # docker doesn't let you mount during build phase :-(
 ###
 
-RUN cd \ && git clone git@github.com:mpatters72/jenkdockchefsolo.git
-RUN ls /jenkdockchefsolo.git
+RUN git clone git@github.com:mpatters72/jenkdockchefsolo.git
+RUN ls jenkdockchefsolo.git
 
